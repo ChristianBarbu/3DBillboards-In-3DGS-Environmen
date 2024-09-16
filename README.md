@@ -18,3 +18,10 @@ python train.py -s <path to first COLMAP data> --iterations N --densify_until_it
 python train.py -s <path to second COLMAP data> --iterations M --densify_until_iter N -m <second output> --start_checkpoint <path to first COLMAP data>\chkpntN.pth -r 4
 ```
 ## Loading successive gaussian scenes into Unity
+
+1. Tick the checkbox ```GenerateAlignedAsets```
+2. First input PLY file is the one to which the second one will be aligned in terms of the Morton Order
+
+Note: Quality settings stick to the quality of the first object. If you have optimized your models like explained, then the number of splats should be the same.
+
+![GaussianAssetCreator](github_assets/GaussianSplatCreator.png)

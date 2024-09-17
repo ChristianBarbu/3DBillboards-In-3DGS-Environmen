@@ -1,5 +1,6 @@
 # 3DBillboards-In-3DGS-Environment
 This is an adaptation of Aras Pranckevičius implementation of the rendering part of 3DGS. It employs some additional changes to facilitate the interpolation between two Gaussian scenes. However, the scenes need to be prepared for this to work properly.
+It seems that the project files are too large, you can download the projecte here: [thesis_project](https://1drv.ms/f/s!AjwojfWkJq7XhZJUJk92Xx8pWB1Jbw?e=8GhF5b)
 
 ## Models used in Thesis
 As the assets and PLY files are generally very large, here is a Onedrive link, where the PLY files, as well as the already converted files for Unity have been placed:

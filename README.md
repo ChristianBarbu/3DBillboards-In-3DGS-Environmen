@@ -26,3 +26,19 @@ python train.py -s <path to second COLMAP data> --iterations M --densify_until_i
 Note: Quality settings stick to the quality of the first object. If you have optimized your models like explained, then the number of splats should be the same.
 
 ![GaussianAssetCreator](github_assets/GaussianSplatCreator.png)
+
+## Preparing the Scene
+
+The movement of the user's head will move three cameras synchronously:
+- BillboardAndCameras/VirtualWindow (Billboard)/BillboardCamera
+- BillboardAndCameras/VirtualWindow (InteriorObjects)/InteriorObjectsCamera
+- WallCamera/ProxyParent/ProxyCameraObject
+Make sure that the front face of the billboard has the same normal as the wall to which you want to project the billboard in your 3DGS scene.
+The CameraMovementController synchronizes the movement of the objects, given a subject and some followers.
+
+## Head Tracking
+
+For tracking the head you can use AITrack, in combination with OpenTrack. The UDP Receiver in Unity is responsible for getting the data.
+You can find that responsible object in the hierarchy:
+- UTILITY_OBJECTS/UDPReceiver
+The object that will be moved is the ```Target Object```

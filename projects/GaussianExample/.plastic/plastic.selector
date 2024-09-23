@@ -1,4 +1,0 @@
-repository "UnityGaussianSplatting@Studio_Schabenbraun@cloud"
-  path "/"
-    br "/main"
-    co "/main"

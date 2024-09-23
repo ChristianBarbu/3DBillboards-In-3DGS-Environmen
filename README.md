@@ -34,6 +34,7 @@ The movement of the user's head will move three cameras synchronously:
 - BillboardAndCameras/VirtualWindow (Billboard)/BillboardCamera
 - BillboardAndCameras/VirtualWindow (InteriorObjects)/InteriorObjectsCamera
 - WallCamera/ProxyParent/ProxyCameraObject
+
 Make sure that the front face of the billboard has the same normal as the wall to which you want to project the billboard in your 3DGS scene.
 The CameraMovementController synchronizes the movement of the objects, given a subject and some followers.
 

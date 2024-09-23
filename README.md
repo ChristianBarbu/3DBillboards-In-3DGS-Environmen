@@ -42,3 +42,8 @@ For tracking the head you can use AITrack, in combination with OpenTrack. The UD
 You can find that responsible object in the hierarchy:
 - UTILITY_OBJECTS/UDPReceiver
 The object that will be moved is the ```Target Object```
+
+## Interpolation Demo
+
+This interpolation demo shows the results, which have been achieved by using the successive 3DGS optimization process mentioned above. The position of the gaussians is fixed and we interpolate between the rest of the ViewData.
+![InterpolationDemo](github_assets/interpolation_demo.gif)

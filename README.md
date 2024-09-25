@@ -5,7 +5,7 @@ It seems that the project files are too large, you can download the project here
 <p align="center">
   <span> 
    <a href="github_assets/thesis.pdf" target="_blank">
-    <img src="github_assets/paper_icon.png" />
+    <img src="github_assets/paper-32.png" />
    </a>
   </span> <br> 
   Thesis

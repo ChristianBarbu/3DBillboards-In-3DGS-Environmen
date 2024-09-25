@@ -28,6 +28,8 @@ python train.py -s <path to first COLMAP data> --iterations N --densify_until_it
 ```shell
 python train.py -s <path to second COLMAP data> --iterations M --densify_until_iter N -m <second output> --start_checkpoint <path to first COLMAP data>\chkpntN.pth -r 4
 ```
+Note, that for this project $M=2\cdot N = 16.000$
+
 ### Loading successive gaussian scenes into Unity
 
 1. Tick the checkbox ```GenerateAlignedAsets```

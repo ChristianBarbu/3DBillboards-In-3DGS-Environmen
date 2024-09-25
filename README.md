@@ -8,7 +8,7 @@ It seems that the project files are too large, you can download the project here
     <img src="github_assets/paper-32.png" />
    </a>
   </span> <br> 
-  Thesis
+  <i>Thesis</i>
 </p>
 
 ## Models used in Thesis

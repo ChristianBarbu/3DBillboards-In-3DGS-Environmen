@@ -3,12 +3,7 @@ This is an adaptation of Aras Pranckevičius implementation of the rendering par
 It seems that the project files are too large, you can download the project here: [thesis_project](https://1drv.ms/f/s!AjwojfWkJq7XhZJUJk92Xx8pWB1Jbw?e=8GhF5b). The project has been adapted in the Editor Version 2022.3.35f, it is in ```projects/GaussianExample```, i.e. there is no HDRP or URP support for that adaptation yet.
 
 <p align="center">
-  <span> 
-   <a href="github_assets/thesis.pdf" target="_blank">
-    <img src="github_assets/paper-32.png" />
-   </a>
-  </span> <br> 
-  <i>Thesis</i>
+  <a href="github_assets/"><i>Thesis</i></a>
 </p>
 
 ## Models used in Thesis

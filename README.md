@@ -12,6 +12,12 @@ As the assets and PLY files are generally very large, here is a Onedrive link, w
 
 ## Usage
 ### Successive Gaussian Training
+
+Before starting with the successive gaussian training, make sure you understand [3dgs by graphdeco-inria](https://github.com/graphdeco-inria/gaussian-splatting). In the process of creating the COLMAP data cameras should be fixed, to keep the scenes aligned. The following illustration
+gives an idea of the workflow used:
+
+![Successive COLMAP](github_assets/Successive_COLMAP_downscaled.png)
+
 The following commands can be used for successive training.
 1. Pass:
 
